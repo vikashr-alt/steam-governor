@@ -1,0 +1,15 @@
+{
+  "evidence": "Student-supplied MATLAB CSVs, plots and completion screenshot",
+  "matlab_version": "Not recorded",
+  "octave_executed": false,
+  "checks": {
+    "increase": {
+      "max_csv_difference": 4.99933427988708e-13,
+      "max_exact_error": 2.251e-11
+    },
+    "decrease": {
+      "max_csv_difference": 4.999556324492005e-12,
+      "max_exact_error": 2.251e-11
+    }
+  }
+}

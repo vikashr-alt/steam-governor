@@ -1,0 +1,85 @@
+{
+  "parameters": {
+    "M": 5.0,
+    "D": 1.0,
+    "K": 2.0,
+    "tau": 0.5,
+    "kp": 2.0,
+    "ki": 0.5
+  },
+  "poles": [
+    [
+      -0.9646615715057298,
+      0.7397330112915746
+    ],
+    [
+      -0.9646615715057298,
+      -0.7397330112915746
+    ],
+    [
+      -0.27067685698854216,
+      0.0
+    ]
+  ],
+  "complex_pair_wn": 1.2156384641555256,
+  "complex_pair_zeta": 0.793543146214822,
+  "ki_stability_limit": 5.5,
+  "metrics": [
+    {
+      "load": 1.3,
+      "peak_speed": 0.9444816878906375,
+      "peak_time": 1.8900000000000001,
+      "peak_deviation_percent": 5.551831210936249,
+      "recovery_overshoot_percent_of_step": 0.0,
+      "settling_band": 0.006,
+      "closed_settling_s": 10.43,
+      "open_settling_s": 19.57,
+      "closed_final_speed": 0.9999999910776305,
+      "open_asymptotic_speed": 0.7,
+      "throttle_min": 0.6,
+      "throttle_max": 0.7587216490897095,
+      "throttle_asymptotic": 0.75,
+      "level_asymptotic_m": -0.003
+    },
+    {
+      "load": 0.7,
+      "peak_speed": 1.0555183121093625,
+      "peak_time": 1.8900000000000001,
+      "peak_deviation_percent": 5.551831210936249,
+      "recovery_overshoot_percent_of_step": 0.0,
+      "settling_band": 0.006,
+      "closed_settling_s": 10.43,
+      "open_settling_s": 19.57,
+      "closed_final_speed": 1.0000000089223695,
+      "open_asymptotic_speed": 1.3,
+      "throttle_min": 0.44127835091029044,
+      "throttle_max": 0.6,
+      "throttle_asymptotic": 0.44999999999999996,
+      "level_asymptotic_m": 0.003
+    }
+  ],
+  "checks": {
+    "increase_rk4_vs_eigen": 2.250988284657751e-11,
+    "increase_step_halving": 2.1108267911351675e-11,
+    "increase_nonlinear_pressure_peak_difference": 0.001003055111128144,
+    "decrease_rk4_vs_eigen": 2.250988284657751e-11,
+    "decrease_step_halving": 2.1108267911351675e-11,
+    "decrease_nonlinear_pressure_peak_difference": 0.000955805907261735,
+    "sign_symmetry": 0.0,
+    "minimum_corner_decay_rate_per_s": 0.14461339339326126,
+    "ki_12_poles": [
+      [
+        -2.7452722844360777,
+        0.0
+      ],
+      [
+        0.2726361422180382,
+        1.8500244387277622
+      ],
+      [
+        0.2726361422180382,
+        -1.8500244387277622
+      ]
+    ]
+  }
+}
